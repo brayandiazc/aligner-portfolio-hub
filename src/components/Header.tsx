@@ -12,12 +12,12 @@ const Header = () => {
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#inicio" className="text-foreground hover:text-primary transition-colors">Inicio</a>
-          <a href="#servicios" className="text-foreground hover:text-primary transition-colors">Servicios</a>
-          <a href="#sobre-mi" className="text-foreground hover:text-primary transition-colors">Sobre Mí</a>
-          <a href="#casos" className="text-foreground hover:text-primary transition-colors">Casos</a>
-          <a href="#testimonios" className="text-foreground hover:text-primary transition-colors">Testimonios</a>
-          <a href="#contacto" className="text-foreground hover:text-primary transition-colors">Contacto</a>
+          <a href="/" className="text-foreground hover:text-primary transition-colors">Inicio</a>
+          <a href="/servicios" className="text-foreground hover:text-primary transition-colors">Servicios</a>
+          <a href="/sobre-mi" className="text-foreground hover:text-primary transition-colors">Sobre Mí</a>
+          <a href="/casos" className="text-foreground hover:text-primary transition-colors">Casos</a>
+          <a href="/testimonios" className="text-foreground hover:text-primary transition-colors">Testimonios</a>
+          <a href="/contacto" className="text-foreground hover:text-primary transition-colors">Contacto</a>
         </nav>
 
         <Button variant="medical" className="hidden md:flex">
